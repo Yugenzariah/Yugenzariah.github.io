@@ -1,43 +1,49 @@
-  .container-one {
-    width: 350px;
-    height: 500px;
-    perspective: 800px;
-  }
+html {
+background-color: #008170;
+color: #0F0F0F;
+font-family: Orbitron, sans-serif;
+}
+
+.container-one {
+width: 350px;
+height: 500px;
+perspective: 800px;
+}
   
-  .container-one:hover > .card-one {
-    cursor: pointer;
-    transform: rotateY(180deg);
-  }
+.container-one:hover > .card-one {
+cursor: pointer;
+transform: rotateY(180deg);
+}
   
-  .card-one {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    transition: transform 1500ms;
-    transform-style: preserve-3d;
-  }
+.card-one {
+height: 100%;
+width: 100%;
+position: relative;
+transition: transform 1500ms;
+transform-style: preserve-3d;
+}
   
-  .front-one,
-  .back-one {
-    height: 100%;
-    width: 100%;
-    border-radius: 2rem;
-    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
-    position: absolute;
-    backface-visibility: hidden;
-  }
+.front-one,
+.back-one {
+height: 100%;
+width: 100%;
+border-radius: 2rem;
+box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+position: absolute;
+backface-visibility: hidden;
+}
   
-  .front-one {
-    background-image: url(https://www.recipetineats.com/wp-content/uploads/2017/05/Asian-Beef-Bowls_ground-beef-recipe_2.jpg?resize=650,910);
-  }
+.front-one {
+background-image: url(https://www.recipetineats.com/wp-content/uploads/2017/05/Asian-Beef-Bowls_ground-beef-recipe_2.jpg?resize=650,910);
+}
   
-  .back-one {
-    color: #FFF;
-    background-color: #3a3a3a;
-    transform: rotateY(180deg);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
-  }
+.back-one {
+color: #FFF;
+background-color: #3a3a3a;
+transform: rotateY(180deg);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 5rem;
+}

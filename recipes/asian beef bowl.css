@@ -1,3 +1,7 @@
+html {
+    font-family: Orbitron, sans-serif;
+}
+
 img {
     width: 30%;
     height: 40%;
@@ -6,6 +10,5 @@ img {
 }
 
 #recipe-name {
-    font-style: italic;
     font-size: 50px;
 }
