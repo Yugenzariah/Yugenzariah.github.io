@@ -1,12 +1,12 @@
 html {
 background-color: #008170;
-color: #0F0F0F;
 font-family: Orbitron, sans-serif;
 text-align: center;
 }
 
 h1 {
     font-size: 50px;
+    color: #FFF;
 }
 
 .recipe-card {
