@@ -2,8 +2,14 @@ html {
 background-color: #008170;
 color: #0F0F0F;
 font-family: Orbitron, sans-serif;
+text-align: center;
 }
 
+h1 {
+    font-size: 50px;
+}
+
+/* First Card */
 .container-one {
 width: 350px;
 height: 500px;
@@ -35,9 +41,152 @@ backface-visibility: hidden;
   
 .front-one {
 background-image: url(https://www.recipetineats.com/wp-content/uploads/2017/05/Asian-Beef-Bowls_ground-beef-recipe_2.jpg?resize=650,910);
+background-size: 100%;
+background-position: center;
 }
   
 .back-one {
+color: #FFF;
+background-color: #3a3a3a;
+transform: rotateY(180deg);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 5rem;
+}
+
+/* Second Card */
+.container-two {
+width: 350px;
+height: 500px;
+perspective: 800px;
+}
+  
+.container-two:hover > .card-two {
+cursor: pointer;
+transform: rotateY(180deg);
+}
+  
+.card-two {
+height: 100%;
+width: 100%;
+position: relative;
+transition: transform 1500ms;
+transform-style: preserve-3d;
+}
+  
+.front-two,
+.back-two {
+height: 100%;
+width: 100%;
+border-radius: 2rem;
+box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+position: absolute;
+backface-visibility: hidden;
+}
+  
+.front-two {
+background-image: url(https://images.themodernproper.com/billowy-turkey/production/posts/CilantroLimeChickenThighs_9.jpg?w=800&q=82&fm=jpg&fit=crop&dm=1687825355&s=26897450d9ab5eee22321199b7e8c2c0);
+background-size: 100%;
+background-position: center;
+}
+  
+.back-two {
+color: #FFF;
+background-color: #3a3a3a;
+transform: rotateY(180deg);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 5rem;
+}
+
+/* Third Card */
+.container-three {
+width: 350px;
+height: 500px;
+perspective: 800px;
+}
+  
+.container-three:hover > .card-three {
+cursor: pointer;
+transform: rotateY(180deg);
+}
+  
+.card-three {
+height: 100%;
+width: 100%;
+position: relative;
+transition: transform 1500ms;
+transform-style: preserve-3d;
+}
+  
+.front-three,
+.back-three {
+height: 100%;
+width: 100%;
+border-radius: 2rem;
+box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+position: absolute;
+backface-visibility: hidden;
+}
+  
+.front-three {
+background-image: url(https://images.themodernproper.com/billowy-turkey/production/posts/2020/Grilled-Ribeye-Steak-with-Salsa-Verde-8.jpg?w=800&q=82&fm=jpg&fit=crop&dm=1599768896&s=b532a15c91966bcb017499787420ffe1);
+background-size: 100%;
+background-position: center;
+}
+  
+.back-three {
+color: #FFF;
+background-color: #3a3a3a;
+transform: rotateY(180deg);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 5rem;
+}
+
+/* Fourth Card */
+.container-four {
+width: 350px;
+height: 500px;
+perspective: 800px;
+}
+  
+.container-four:hover > .card-four {
+cursor: pointer;
+transform: rotateY(180deg);
+}
+  
+.card-four {
+height: 100%;
+width: 100%;
+position: relative;
+transition: transform 1500ms;
+transform-style: preserve-3d;
+}
+  
+.front-four,
+.back-four {
+height: 100%;
+width: 100%;
+border-radius: 2rem;
+box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+position: absolute;
+backface-visibility: hidden;
+}
+  
+.front-four {
+background-image: url(https://images.themodernproper.com/billowy-turkey/production/posts/2019/hoisin-glazed-pork-chops-9.jpg?w=800&q=82&fm=jpg&fit=crop&dm=1603458849&s=aef291f0adcaffa466cd86d6ff48afbf);
+background-size: 100%;
+background-position: center;
+}
+  
+.back-four {
 color: #FFF;
 background-color: #3a3a3a;
 transform: rotateY(180deg);
