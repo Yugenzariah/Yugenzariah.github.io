@@ -9,6 +9,11 @@ h1 {
     font-size: 50px;
 }
 
+.recipe-card {
+    display: flex;
+    justify-content: space-around;
+}
+
 /* First Card */
 .container-one {
 width: 350px;
