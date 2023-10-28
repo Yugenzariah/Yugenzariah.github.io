@@ -6,12 +6,38 @@ html {
 
 img {
     width: 30%;
-    height: 40%;
-    padding: 0%;
-    border: 0;
+    height: 50%;
 }
 
 #recipe-name {
     font-size: 50px;
 }
 
+.description {
+    text-align: center;
+}
+
+
+.ingredients {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #E2D1F9;
+    padding: 10px;
+}
+
+.nutrition {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #E2D1F9;
+    padding: 10px;
+    text-align: left;
+}
+
+p.header {
+    font-weight: bold;
+}
+
+span {
+    font-weight: bold;
+    color: turquoise;
+}
