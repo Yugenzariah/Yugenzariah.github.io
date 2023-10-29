@@ -3,3 +3,42 @@ html {
     font-family: Orbitron, sans-serif;
     color: #E2D1F9;
 }
+
+img {
+    width: 30%;
+    height: 50%;
+    border-radius: 5%;
+}
+
+#recipe-name {
+    font-size: 50px;
+}
+
+.description {
+    text-align: center;
+    padding: 1%;
+}
+
+.ingredients {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #E2D1F9;
+    padding: 10px;
+}
+
+.nutrition {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #E2D1F9;
+    padding: 10px;
+    text-align: left;
+}
+
+p.header {
+    font-weight: bold;
+}
+
+span {
+    font-weight: bold;
+    color: turquoise;
+}
