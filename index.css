@@ -9,6 +9,14 @@ h1 {
     color: #E2D1F9;
 }
 
+h2 {
+    color: #E2D1F9;
+}
+
+p {
+    color: #E2D1F9;
+}
+
 .recipe-card {
     display: flex;
     justify-content: space-around;
