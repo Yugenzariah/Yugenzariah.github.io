@@ -4,6 +4,12 @@ font-family: Orbitron, sans-serif;
 text-align: center;
 }
 
+img {
+    height: 150px;
+    width: 150px;
+}
+
+
 h1 {
     font-size: 50px;
     color: #E2D1F9;
